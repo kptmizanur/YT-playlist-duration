@@ -1,0 +1,95 @@
+body {
+  font-size: 22px;
+  font-family: 'Baloo Bhai 2', 'Hubballi', sans-serif;
+  background-color: rgb(255, 248, 248);
+  margin: 0;
+}
+
+.nav-child {
+  display: flex;
+  justify-content: center;
+}
+
+
+.h1 {
+  color: rgb(235, 80, 106);
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+li {
+  margin-right: 1.5rem;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.form-control {
+  width: 65%;
+  height: 2rem;
+}
+
+.btn {
+  margin-top: 1.2rem;
+  width: 10rem;
+  height: 2.8rem;
+  border-radius: 10px;
+  background-color: orange;
+  font-size: smaller;
+  cursor: pointer;
+}
+
+.page-footer {
+  background-color: rgb(221, 186, 186);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: medium;
+  padding-top: 5px;
+}
+.m_nav {
+  display: none;
+}
+.duration {
+    text-align: left;
+    color: rgb(157, 121, 121);
+    width: 65%;
+  
+    display: block;
+    margin: auto;
+  }
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: small;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .m_nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.4rem auto;
+    padding: 0px 30px;
+  }
+  .form-control {
+    width: 85%;
+    height: 2.5rem;
+    border-radius: 1rem;
+  }
+  .btn {
+    border-radius: 1.8rem;
+    margin-top: 10px;
+  }
+  .duration {
+    width: 85%;
+    margin-top: 30px;
+  }
+}
+
